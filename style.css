@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background: whitesmoke;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+h2{
+    color: #1e1b4b;
+}
+.header{
+    padding-bottom: 30px;
+    margin-left: 30%;
+}
+.header hr{
+    width: 50px;
+    margin-left: 50px;
+    background: skyblue;
+    height: 5px;
+    border: none;
+}
+.card{
+    width: 450px;
+    background: #fff;
+    padding-top: 10px;
+    border-radius: 4px;
+}
+.card #image{
+    padding: 10px;
+    margin-left: 33%;
+}
+.card #image img{
+    height: 130px;
+    width: 110px;
+    border-radius: 50%;
+    box-shadow: 4px -1px 0px skyblue;
+}
+#name{
+    text-align: center;
+    color: #1e1b4b;
+    font-weight: 500;
+    font-size: 13px;
+}
+#title{
+    text-align: center;
+    color: skyblue;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+#content{
+    color: #475569;
+    padding: 10px;
+    line-height: 1.2;
+}
+.arrows{
+    text-align: center;
+    color: skyblue;
+    font-family: 200;
+}
+.arrows #prev{
+    cursor: pointer;
+}
+.arrows #next{
+    cursor: pointer;
+    margin-left: 7px;
+}
+button{
+    height: 30px;
+    margin-left: 39%;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #1e3a8a;
+    background: skyblue;
+    color: #1e3a8a;
+    border-radius: 7px;
+    width: 100px;
+}
+button:hover{
+    background: #1e3a8a;
+    color: #172554;
+}
